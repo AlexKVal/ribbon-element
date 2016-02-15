@@ -1,0 +1,14 @@
+/* Base */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  color: #865931;
+  background-color: #fffbf5;
+  font: 16px/24px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,2 @@
+- the ribbon element as on the guides.emberjs.com but made with CSS
+- SCSS is used

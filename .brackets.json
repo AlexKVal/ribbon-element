@@ -1,0 +1,15 @@
+{
+  "sass.enabled": false,
+  "sass.compiler": "libsass",
+  "path": {
+    "scss/main.scss": {
+      "sass.enabled": true,
+      "sass.options": {
+        "includePaths": [],
+        "outputDir": "../",
+        "imagePath": null,
+        "sourceComments": false
+      }
+    }
+  }
+}

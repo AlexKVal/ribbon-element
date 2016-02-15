@@ -95,11 +95,25 @@ html, body, .l-container {
 .ribbon {
   display: inline-block;
   position: absolute;
+  top: 4px;
   right: -1px;
-  width: 60px;
+  height: 20px;
+  width: 45px;
+  padding-left: 14px;
+  font: 700 10px Arial, sans-serif;
+  line-height: 21px;
   color: #444545;
-  background-color: #f5e090;
-  text-align: center;
-  font: 700 10px/19px Arial, sans-serif; }
+  background-color: #f5e090; }
+
+.ribbon:before {
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 6px;
+  position: absolute;
+  left: -6px;
+  border-top: solid 10px #f5e090;
+  border-bottom: solid 10px #f5e090;
+  border-left: solid 6px transparent; }
 
 /*# sourceMappingURL=main.css.map */

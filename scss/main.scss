@@ -25,13 +25,32 @@
   font: 12px/19px monospace;
 }
 
+
+$ribbon-clr: #f5e090;
+$ribbon-height: 20px;
+$ribbon-triangledepth: 6px;
+
 .ribbon {
   display: inline-block;
   position: absolute;
+  top: 4px;
   right: -1px;
-  width: 60px;
+  height: $ribbon-height;
+  width: 45px;
+  padding-left: 14px;
+  font: 700 10px Arial, sans-serif;
+  line-height: $ribbon-height+1;
   color: #444545;
-  background-color: #f5e090;
-  text-align: center;
-  font: 700 10px/19px Arial, sans-serif;
+  background-color: $ribbon-clr;
+}
+.ribbon:before {
+  content: '';
+  display: inline-block;
+  height: $ribbon-height;
+  width: $ribbon-triangledepth;
+  position: absolute;
+  left: - $ribbon-triangledepth;
+  border-top: solid $ribbon-height/2 $ribbon-clr;
+  border-bottom: solid $ribbon-height/2 $ribbon-clr;
+  border-left: solid $ribbon-triangledepth transparent;
 }

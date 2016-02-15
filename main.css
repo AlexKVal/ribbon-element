@@ -50,18 +50,30 @@ table {
   box-sizing: border-box; }
 
 body {
+  padding: 20px;
   color: #865931;
   background-color: #fffbf5;
   font: 16px/24px "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300; }
 
+p {
+  padding-bottom: 10px; }
+
 a {
   text-decoration: none; }
+
+code {
+  display: inline-block;
+  padding: 0 8px;
+  background-color: antiquewhite;
+  border-radius: 3px; }
 
 /* Layout */
 html, body, .l-container {
   height: 100%; }
 
 /* Modules */
+.highlight {
+  background-color: #444545; }
 
 /*# sourceMappingURL=main.css.map */

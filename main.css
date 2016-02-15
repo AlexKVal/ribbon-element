@@ -78,6 +78,7 @@ html, body, .l-container {
   border-radius: 3px; }
 
 .highlight-header {
+  position: relative;
   padding: 5px 0;
   color: #d3d3d3;
   background-color: #292929;
@@ -90,5 +91,15 @@ html, body, .l-container {
   padding: 10px;
   color: white;
   font: 12px/19px monospace; }
+
+.ribbon {
+  display: inline-block;
+  position: absolute;
+  right: -1px;
+  width: 60px;
+  color: #444545;
+  background-color: #f5e090;
+  text-align: center;
+  font: 700 10px/19px Arial, sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

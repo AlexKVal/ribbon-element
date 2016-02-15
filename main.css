@@ -74,6 +74,21 @@ html, body, .l-container {
 
 /* Modules */
 .highlight {
-  background-color: #444545; }
+  background-color: #444545;
+  border-radius: 3px; }
+
+.highlight-header {
+  padding: 5px 0;
+  color: #d3d3d3;
+  background-color: #292929;
+  font: 13px/19px Menlo, Courier, monospace;
+  border-radius: 3px; }
+  .highlight-header span {
+    padding: 10px; }
+
+.highlight-scroller {
+  padding: 10px;
+  color: white;
+  font: 12px/19px monospace; }
 
 /*# sourceMappingURL=main.css.map */

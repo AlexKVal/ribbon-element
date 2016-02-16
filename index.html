@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ribbon Element</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
 </head>
 
 <body>
@@ -20,14 +21,19 @@
         <div class="ribbon">JS</div>
       </div>
       <div class="highlight-scroller">
-        <pre>
+        <pre><code class="js">
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
+  firstName: 'Trek',
+  lastName: 'Glowacki'
 });
-        </pre>
+        </code></pre>
       </div>
     </div>
   </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

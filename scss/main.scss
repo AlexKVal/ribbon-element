@@ -20,8 +20,6 @@
   }
 }
 .highlight-scroller {
-  padding: 10px;
-  color: white;
   font: 12px/19px monospace;
 }
 
@@ -53,4 +51,18 @@ $ribbon-triangledepth: 6px;
   border-top: solid $ribbon-height/2 $ribbon-clr;
   border-bottom: solid $ribbon-height/2 $ribbon-clr;
   border-left: solid $ribbon-triangledepth transparent;
+}
+
+.method {
+  display: inline-block;
+  padding: 0 5px;
+  font-family: Menlo;
+  background-color: antiquewhite;
+  border-radius: 3px;
+}
+
+/* prism */
+pre[class*="language-"] {
+  padding-top: 0;
+  background: #444545;
 }

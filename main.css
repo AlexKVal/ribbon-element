@@ -62,12 +62,6 @@ p {
 a {
   text-decoration: none; }
 
-code {
-  display: inline-block;
-  padding: 0 8px;
-  background-color: antiquewhite;
-  border-radius: 3px; }
-
 /* Layout */
 html, body, .l-container {
   height: 100%; }
@@ -88,8 +82,6 @@ html, body, .l-container {
     padding: 10px; }
 
 .highlight-scroller {
-  padding: 10px;
-  color: white;
   font: 12px/19px monospace; }
 
 .ribbon {
@@ -115,5 +107,17 @@ html, body, .l-container {
   border-top: solid 10px #f5e090;
   border-bottom: solid 10px #f5e090;
   border-left: solid 6px transparent; }
+
+.method {
+  display: inline-block;
+  padding: 0 5px;
+  font-family: Menlo;
+  background-color: antiquewhite;
+  border-radius: 3px; }
+
+/* prism */
+pre[class*="language-"] {
+  padding-top: 0;
+  background: #444545; }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ribbon Element</title>
+  <link rel="stylesheet" href="prism.css">
   <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
   <div class="l-container">
     <p>
-      To provide a <code>firstName</code> and <code>lastName</code> to the above template,
+      To provide a <span class="method">firstName</span> and <span class="method">lastName</span> to the above template,
       properties must be added to the application controller. If you are following along with
       an Ember CLI application, you may need to create this file:
     </p>
@@ -20,14 +21,16 @@
         <div class="ribbon">JS</div>
       </div>
       <div class="highlight-scroller">
-        <pre>
-import Ember from 'ember';
+        <pre class="line-numbers"><code class="language-javascript">import Ember from 'ember';
 
 export default Ember.Controller.extend({
-});
-        </pre>
+  firstName: 'Trek',
+  lastName: 'Glowacki'
+});</code></pre>
       </div>
     </div>
   </div>
+
+  <script src="prism.js"></script>
 </body>
 </html>

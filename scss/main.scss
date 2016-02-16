@@ -54,3 +54,11 @@ $ribbon-triangledepth: 6px;
   border-bottom: solid $ribbon-height/2 $ribbon-clr;
   border-left: solid $ribbon-triangledepth transparent;
 }
+
+.method {
+  display: inline-block;
+  padding: 0 5px;
+  font-family: Menlo;
+  background-color: antiquewhite;
+  border-radius: 3px;
+}

@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ribbon Element</title>
   <link rel="stylesheet" href="main.css">
+  <link href="sunburst.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="l-container">
     <p>
-      To provide a <code>firstName</code> and <code>lastName</code> to the above template,
+      To provide a <span class="method">firstName</span> and <span class="method">lastName</span> to the above template,
       properties must be added to the application controller. If you are following along with
       an Ember CLI application, you may need to create this file:
     </p>
@@ -20,14 +21,20 @@
         <div class="ribbon">JS</div>
       </div>
       <div class="highlight-scroller">
-        <pre>
+        <pre><code data-language="javascript">
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
+  firstName: 'Trek',
+  lastName: 'Glowacki'
 });
-        </pre>
+        </code></pre>
       </div>
     </div>
   </div>
+
+  <script src="rainbow.min.js"></script>
+  <script src="generic.js"></script>
+  <script src="javascript.js"></script>
 </body>
 </html>
